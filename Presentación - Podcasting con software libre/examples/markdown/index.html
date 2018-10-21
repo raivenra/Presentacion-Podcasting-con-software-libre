@@ -1,0 +1,136 @@
+<!doctype html>
+
+<!--
+  Presentación en markdown
+-->
+
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Markdown in impress.js</title>
+    
+    <meta name="description" content="Authoring impress.js presentations in Markdown" />
+    <meta name="author" content="Jorge Lama" />
+    <link rel="stylesheet" href="../../extras/highlight/styles/github.css">
+
+        
+    <!--
+        Styles specific for this example presentation. 
+    -->
+    <link href="css/markdown-slides.css" rel="stylesheet" />
+    <link href="css/devopsy.css" rel="stylesheet" />
+    <link href="css/effects.css" rel="stylesheet" />
+    
+</head>
+
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="2000">
+
+<div id="markdown" class="step slide markdown" data-rel-x="0" data-rel-y="900">
+
+# Creación dun podcast/radio con Software Libre
+
+![](images/logo-melisa.png)
+![](images/logo-aliad.png)
+
+Jorge Lama  
+@raivenra  
+Membro da Asociación Melisa
+
+-----
+# somos voluntarios
+
+![](images/voluntarios.jpg)
+
+-----
+
+# que facemos?
+
+![](images/abeancos.png)
+![](images/r.png)
+![](images/radio.png)
+
+-----
+
+radio e podcasting,  
+boas ferramentas  
+comunicativas para dar  
+visibilidade  
+a persoas e colectivos
+>
+**Libremente**  
+*Proyecto de podcasting*
+
+![](images/micro.png)
+
+-----
+# coñecemento aberto
+
+![](images/audacity.png)
+![](images/tux.png)
+![](images/kiwix.png)
+
+-----
+
+# Interneeeeeeeet.....!!!!!!
+
+![](images/internet.jpg)
+
+-----
+
+# Primeira emisión
+
+![](images/emision.png)
+
+</div>
+
+<div id="tilted-slide" class="step slide markdown" data-rotate="-85" data-x="2000" data-y="2000" data-z="1000" data-scale="4">
+## Jorge Lama
+### @raivenra
+  
+Presentación baixo licenza Creative Commons BY-SA 4.0
+
+![CC BY-SA](images/by-sa.svg)
+
+[https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
+
+</div>
+
+
+<div id="overview" class="step" data-x="5000" data-y="4000" data-scale="10" style="pointer-events: none;" data-rotate="5">
+</div>
+
+</div>
+
+<div id="impress-toolbar"></div>
+<div id="impress-help"></div>
+
+
+<!-- Extra modules
+     Load highlight.js, mermaid.js and markdown.js from extras.
+     See also src/plugins/extras/extras.js -->
+<script type="text/javascript" src="../../extras/highlight/highlight.pack.js"></script>
+<script type="text/javascript" src="../../extras/mermaid/mermaid.min.js"></script>
+<script type="text/javascript" src="../../extras/markdown/markdown.js"></script>
+<script type="text/javascript" src="../../extras/impress-console/js/impressConsole.js"></script>
+<script type="text/javascript">
+  // For impressConsole, we unfortunately must also set the path to a mandatory css file
+  // which is relative to this html file.
+  // See https://github.com/regebro/impress-console/issues/19
+  var impressConsoleCss = '../../extras/impress-console/css/impressConsole.css';
+</script>
+
+<!--
+    To make all described above really work, you need to include impress.js in the page.
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. 
+-->
+<script type="text/javascript" src="../../js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>
